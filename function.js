@@ -1,8 +1,17 @@
+/**
+ * clock degree count
+ * @param {*} time 
+ * @param {*} current 
+ * @returns 
+ */
 function alltime(time, current){
     return ((current * 360) / time) - 180
 }
 
 
+/**
+ * all calculator function
+ */
 let all_data = [];
 let getval = (val) => {
     all_data.push(val)
